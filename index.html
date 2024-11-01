@@ -35,7 +35,7 @@
                 <a href="#education">Education</a>
             </li>
             <li>
-                <a href="#projects">Projects</a>
+                <a href="#education">Research</a>
             </li>
             <li>
                 <a href="#skills">Skills</a>
@@ -51,7 +51,7 @@
         <div id="lead-content">
             <h1>邹婉琳</h1>
             <!--<h2>软件工程师</h2>-->
-            <a href="assets/resume.pdf" target="_blank" class="btn-rounded-white">简历下载</a>
+            <a href="assets/resume.pdf" target="_blank" class="btn-rounded-white">Resume Download</a>
         </div>
         <!-- End #lead-content -->
 
@@ -135,7 +135,7 @@
         <!-- One Education Block -->
         <div class="education-block">
             <h3>湖南大学</h3>
-            <span class="education-date">2009.09 - 2013.07</span>
+            <span class="education-date">2020.09 - 2024.06</span>
             <h4>经济学学士（金融学）</h4>
             <p>
                 主修课程：
@@ -153,43 +153,99 @@
     <!-- Different media viewers -->
 
     <!-- image viewer -->
+    <!--
     <div class="overlay-viewer" id="image-viewer">
         <span class="close">&times;</span>
         <img class="modal-content" id="full-image">
     </div>
+    -->
     <!-- End of image viewer -->
 
     <!-- video viewer -->
+    <!--
     <div class="overlay-viewer" id="video-viewer">
         <span class="close">&times;</span>
         <video id="full-video" class="modal-content" controls autoplay loop src="#">
             Your browser does not support HTML5 video element.
         </video>
     </div>
+    -->
     <!-- End of video viewer -->
 
     <!-- glb viewer -->
+    <!--
     <div class="overlay-viewer" id="glb-viewer">
         <span class="close">&times;</span>
         <model-viewer id="full-glb" class="glb-content" src="#" autoplay ar shadow-intensity="1" camera-controls
             auto-rotate></model-viewer>
     </div>
+    -->
     <!-- End of glb viewer -->
  
+    
+
 
     <!-- End #projects -->
+
+    <!--Start #research-->
+    <div id="research">
+        <h2 class="heading">Research</h2>
+
+        <!-- One Research Block -->
+        <div class="education-block">
+            <h3>基于市场状态的非线性股票回报预测研究</h3>
+            <p>2023.03 - 2024.06</p>
+            <h4>校级优秀毕业论文</h4>
+            
+            <p>
+                提出非参数时变系数预测模型，探究股息率和市盈率对股票市场回报的预测能力，
+                以及该预测能力随时间和市场状态变动而变动的性质。
+                选定经济政策不确定性和风险规避指数作为市场状态变量对股票市场回报的时变性质进行解释。
+                发现经济政策不确定性和股息率的时变参数具有正向关系，与市盈率的时变参数则为负向关系；
+                风险规避和股息率的时变参数具有负向关系，与市盈率的时变参数则为正向关系。
+            </p>
+        </div>
+
+        <!-- One Research Block -->
+        <div class="education-block">
+            <h3>基于MLP对股票收益率的预测</h3>
+            <p>2022.11 - 2023.01</p>
+            
+            <p>
+                运用Python基于10年跨度包含200+因子的数据集实现数种机器学习方法
+                （正则化回归、浅层神经网络等）对股票收益率进行预测并对比效果，
+                选取MLP实现119期股票收益率的月度滚动预测，且基于预测值构建的多空投资策略表现良好，
+                组合所获收益接近实际最高收益。 
+            </p>
+        </div>
+
+        <!-- One Research Block -->
+        <div class="education-block">
+            <h3>The preference for lottery stocks in A-share market</h3>
+            <p>2023.04 - 2023.05</p>
+            
+            <p>
+                基于实证资产定价范式，运用Python构建指标MAX(N)和IVOL，实现近240期的单变量、双变量排序，
+                并结合Stata完成Fama-Macbeth回归和Newey and West adjusted t-statistic的计算，实证结果表明A股市
+                场存在投资者对彩票型股票的偏好，但指标在不同市场间表现不稳健。
+            </p>
+        </div>
+
+    </div>
+
 
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
             <li>Python(4years)</li>
             <li>Matlab</li>
+            <li>R</li>
         </ul>
     </div>
     <!-- End #skills -->
 
     <div id="contact">
-        <h2>联系方式</h2>
+        <h2>Contact</h2>
         <div id="contact-form">
 
             <!-- One Social Icon Block -->
@@ -198,7 +254,10 @@
                 <span>wanlinzbp@163.com</span>
             </article>
             <!-- End of One Social Icon Block -->
-
+            <article>
+                <i class="fa fa-weixin fa-fw"></i>
+                <span>BapiZcute</span>
+            </article>
 <!--        
             <article>
                 <i class="fa fa-phone fa-fw"></i>
@@ -209,10 +268,7 @@
                 <i class="fa fa-home fa-fw"></i>
                 <span>301, 24 test St, Montreal, QC, H1A2C2</span>
             </article>
-            <article>
-                <i class="fa fa-weixin fa-fw"></i>
-                <span>13868686868</span>
-            </article>
+
             <article>
                 <i class="fa fa-qq fa-fw"></i>
                 <span>78787878</span>
